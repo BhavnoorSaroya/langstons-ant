@@ -2,12 +2,11 @@
 
 steps:
 ```
-wasm-pack new game-of-life
-cd game-of-life
+wasm-pack new langstons-ant
+cd langstons-ant
 cd src
 
-# generate a web pack
-# do it in the game-of-life directory, outside of src
+# do it in the langstons-ant directory, outside of src
 wasm-pack build --target=web
 
 python3 -m http.server
