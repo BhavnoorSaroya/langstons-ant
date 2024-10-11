@@ -18,8 +18,7 @@ pub enum Direction {
 }
 
 #[wasm_bindgen]
-#[derive(Clone)] // Add this line to derive Clone
-pub struct Ant {
+#[derive(Clone)] 
     row: u32,
     col: u32,
     direction: Direction,
