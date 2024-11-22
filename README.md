@@ -1,4 +1,4 @@
-# Langston's ant
+# Langton's ant
 
 steps:
 ```
